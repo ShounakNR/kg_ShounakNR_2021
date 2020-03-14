@@ -15,4 +15,5 @@ def OneToOne ():
             if Dict1[S1[i]]!=S2[i]:
                 return False
     return True
-print(OneToOne())
+sys.stdout.write(str(OneToOne()))
+# print(OneToOne())
