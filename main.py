@@ -1,5 +1,7 @@
 import sys
-def OneToOne ():    
+def OneToOne (): 
+    if len(sys.argv)<3:
+        return (str(False) + " Please enter 2 strings")  
     S1 = sys.argv[1]
     S2 = sys.argv[2]       
     if len(S1)!=len(S2):
